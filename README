@@ -1,0 +1,7 @@
+This is a simple php template extension, i write this based on a another php library called templights(you can get from the http://code.google.com/p/templigths/).
+you can install it with following commond(just like any other php extension installation):
+#/usr/local/php/bin/phpize
+#./configure --with-php-config=/usr/local/php/bin/php-config --enable-templights
+#make
+and the you can get templights.so in ./module(/usr/local/php is the php install directory,you should change with yours)
+
